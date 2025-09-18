@@ -1,9 +1,10 @@
 body {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    margin: 0px;          
+    margin: 0;
 }
 
 .image-preview {
@@ -11,4 +12,16 @@ body {
     border-right: 30px solid lightpink;
     border-bottom: 30px solid lightgreen;
     border-left: 30px solid #ffefd5;
+    margin-bottom: 20px;
+}
+
+.color-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.color-table th, .color-table td {
+    border: 1px solid #000;
+    padding: 10px 20px;
 }
